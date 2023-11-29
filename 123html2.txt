@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+    <title>webpage of cit</title>
+</head>
+<body style="background-color: lightgreen;">
+    <h1 align="centre">chennai institute of technology</h1><hr>
+    <h2>welcome to cit</h2>
+    <ul>
+        <li><a href="htts://citchennai.com">official website</a></li>
+        <li><a href="mail to://citchennai123@gmail">Email</li>
+        <li><a href="tel:9876543210">phone</a></li>
+    </ul>
+    <form><fieldset>
+    <label for="qouta"><b>qouta:</b></label>
+    <select name="qouta" id="qouta">
+        <option value="government">government</option>
+        <option value="management">management</option>
+    </select></fieldset></form>
+    </body>
+</head>
+</html>

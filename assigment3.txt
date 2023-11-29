@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            img{
+                float: left;
+            }
+            .clearfix{
+                overflow: auto;
+            }
+            .flex-container{
+                display: flex;
+                background-color:greenyellow;
+            }
+            .flex-container > div {
+                background-color:white;
+                margin:15px;
+                padding:30px;
+                font-size: large;
+            }
+            body{
+                background-color: aqua;
+            }
+            h1{
+                color:rgba(0,0,0,1);
+                
+                text-transform: uppercase;
+                text-align: center;
+                text-shadow: 2px 2px;
+                font-size: 40px;
+             }
+             p{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+             }
+            a.link{
+                color:red;
+            }
+            a.visited{
+                color:purple;
+            }
+            a.hover{
+                color:black;
+            }
+            a.active{
+                color:yellow;
+            }
+        </style>    
+    </head>
+    <body>
+        <h1>tnstc</h1>
+        <div class="clearfix">
+            <img class="img" src="logo.jpg" alt="logo" width="250" height="250">
+        TNSTC is official governmentwbsite which is used to book tickets for setc buses through online.In this website we had some special offers for the disability persons and senior citizens and there is no need to take ticket for the childrens below age 5.there are around 2000 buses which runs around all over Tamil nadu .you wants to reah the boarding point before 15 minutes.we have around 500 AC buses and 600 sleeper buses and you wants to bring your any identies .</div>
+        <h2>you can book your tickets for your happy journey through the link which is given below</h2>
+        <a href="https://www.tnstc.com">tnstcticketbooking </a>
+         <h3>
+            types of buses
+         </h3>
+        <div class="flex-container">
+            <div>AC sleeper</div>
+            <div>AC seater</div>
+            <div>NON-AC sleeper</div>
+            <div>NON-AC seater</div>
+        </div>
+    </body>
+</html>S

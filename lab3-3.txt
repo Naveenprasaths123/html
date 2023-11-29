@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Banking</title>
+    <style>
+        body {
+            font-family:verdana;
+            background-color:aqua;
+        }
+
+        header {
+            background-color:white;
+            color:red;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 40px;
+        }
+
+        nav {
+            background-color: white;
+        }
+
+        nav  {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav {
+            margin: 10px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        footer {
+            background-color:burlywood;
+            color:black;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .login-registration {
+            max-width: 500px;
+            margin: 20px;
+            background:lightgreen;
+            padding: 2px;
+        }
+
+        .form-group {
+            margin-bottom: 40px;
+        }
+
+        
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            adding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        button {
+            background-color:green;
+            color: white;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Online Net Banking</h1>
+    </header>
+
+    <nav>
+        <ol>
+            <li><a href="#login">Login</a></li>
+            <li><a href="#registration">Register</a></li>
+        </ol>
+    </nav>
+
+    <main>
+        <div id="login-form" class="login-registration-form">
+            <h2>Login</h2>
+            <form>
+                <div class="form-group">
+                    <label for="login-username">Username:</label>
+                    <input type="text" id="login-username" required>
+                </div>
+                <div class="form-group">
+                    <label for="login-password">Password:</label>
+                    <input type="password" id="login-password" required>
+                </div>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+
+        <div id="registration-form" class="login-registration-form" style="display: none;">
+            <h2>Register</h2>
+            <form>
+                <div class="form-group">
+                    <label for="register-username">Username:</label>
+                    <input type="text" id="register-username" required>
+                </div>
+                <div class="form-group">
+                    <label for="register-password">Password:</label>
+                    <input type="password" id="register-password" required>
+                </div>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2023 Online Banking. All rights reserved.
+    </footer>
+
+    <script>
+        const loginForm = document.getElementById('login-form');
+        const registrationForm = document.getElementById('registration-form');
+        const dashboard = document.getElementById('dashboard');
+    </script>
+</body>
+</html>

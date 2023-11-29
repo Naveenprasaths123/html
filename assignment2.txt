@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            body{
+                background-color:lightgreen;
+            }
+            h1{
+                text-transform: uppercase;
+                color:brown;
+                text-align: center;
+            }
+            h2{
+                text-decoration:underline;
+            }
+            h3{
+                text-transform: capitalize;
+            }
+            h4{
+                text-align: centerz;
+            }
+            p{
+                font-family: cursive;
+
+            }
+        </style>
+    </head>
+<body>
+   <h1>saravana showroom</h1>
+   <img src="4k tv.png" width="555" height="400">
+   <h2>tv brands:</h2>
+   <ol>
+    <li>SONY</li>
+    <li>LG</li>
+    <li>SAMSUNG</li>
+    <li>SANSUI</li>
+    <li>PANASONIC</li>
+    <li>REDMI</li>
+    <li>INTEX</li>
+   </ol>
+   <h3>details:</h3>
+   <table border="5px" cellpadding="5px" cellspacing="5px" width="500px" height="200px">
+    <tr>
+        <th>brand</th>
+        <th>price</th>
+        <th>inches</th>
+        <th>warranty</th>
+    </tr>
+    <tr>
+        <td>SONY</td>
+        <td>70000</td>
+        <td>50</td>
+        <td>5years</td>
+    </tr>
+    <tr>
+        <td>LG</td>
+        <td>65000</td>
+        <td>62</td>
+        <td>5years</td>
+    </tr>
+    <tr>
+        <td>SAMSUNG</td>
+        <td>50000</td>
+        <td>42</td>
+        <td>4years</td>
+    </tr>
+    <tr>
+        <td>SANSUI</td>
+        <td>48000</td>
+        <td>56</td>
+        <td>4years</td>
+    </tr>
+    <tr>
+        <td>PANASONIC</td>
+        <td>55000</td>
+        <td>42</td>
+        <td>3years</td>
+    </tr>
+    <tr>
+        <td>REDMI</td>
+        <td>40000</td>
+        <td>38</td>
+        <td>4years</td>
+    </tr>
+    <tr>
+        <td>INTEX</td>
+        <td>42000</td>
+        <td>40</td>
+        <td>3years</td>
+    </tr>
+   </table>
+ <hr><p>these are the tv companys available in our showroom and it consists of many new features.our showroom is one of the famous showroom in Tamil Nadu and we many special offers for the first 100 persons who are registered in our official website which is given below.
+</p><hr>
+<h4>go soon and register in our website</h4>
+<a href="https://www.saravanashowroomcheenai.com">
+    saravanashowroomchennai
+</a>
+<img src="thankyou.gif" width="400" height="200">
+</body>
+</html>
